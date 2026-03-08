@@ -1,0 +1,311 @@
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+
+  .laakho-bundle-parent-wrapper {
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 32px 16px;
+      margin: 0 auto;
+  }
+
+  /* ── Outer wrapper ── */
+  #laakho-bundle-wrapper {
+      width: 100%;
+      max-width: 1200px;
+      background: #e8e4dc;
+
+  }
+
+  /* ── Beige section ── */
+  #laakho-bundle-top {
+      padding: 5px 50px 0;
+  }
+
+  /* ── Headline ── */
+  #laakho-bundle-headline {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 300;
+      color: #3a3a35;
+      letter-spacing: 0.02em;
+      margin-bottom: 12px;
+      line-height: 146.25%;
+  }
+
+  /* ── Countdown ── */
+  #laakho-timer-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      text-align: center;
+      padding-bottom: min(10px);
+      margin-top: 13px;
+  }
+
+  .laakho-digit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      color: #121212e6;
+      font-weight: 700;
+      font-family: Poppins, sans-serif;
+      text-align: center;
+      border: 1px solid #ccc;
+      margin: 0 2px;
+      height: 37px;
+      border-radius: 3px;
+      width: 22px;
+      background-color: #ffffff;
+  }
+
+  #laakho-timer-colon {
+      font-size: 20px;
+      color: #3a3a35;
+      font-weight: 700;
+      margin: 0 4px;
+      line-height: 1;
+  }
+
+  /* ── Cards grid ── */
+  .laakho-cards-grid {
+      display: flex;
+      gap: 13px;
+      position: sticky;
+top: 0;
+      justify-content: space-between;
+      align-items: start;
+      max-width: 1200px;
+      padding: 37px 0 30px;
+  }
+
+  /* ── Base card ── */
+  .laakho-card {
+      background: #ffffff;
+      border: 1px solid #d0ccc5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+      height: auto;
+      width: 100%;
+  }
+
+  /* Middle card elevated */
+  .laakho-card--popular {
+      background: #cee0e5 !important;
+      border: 1px solid #8e8e8e;
+      margin-top: -16px;
+      position: relative;
+      z-index: 10;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  }
+
+  /* ── Card banners ── */
+  #laakho-card-banner {
+      width: 100%;
+      padding: 5px 0;
+      text-align: center;
+  }
+
+  .laakho-card-banner--red {
+      background: rgb(237, 19, 8);
+  }
+
+  .laakho-card-banner--green {
+      background: rgb(37, 174, 78);
+  }
+
+  #laakho-card-banner p {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-family: 'Open Sans', sans-serif;
+
+  }
+
+  /* ── Card body ── */
+  .laakho-card-body {
+      padding: 0px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding-bottom: 30px;
+  }
+
+  /* ── Pack label ── */
+  .laakho-pack-label {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #121212e6;
+      margin-top: 18px;
+      text-align: center;
+  }
+
+  /* ── Product image area ── */
+  .laakho-product-img-area {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 18px;
+      height: 180px;
+      position: relative;
+  }
+
+  /* ── Pricing ── */
+  .laakho-price-sale {
+      font-weight: 700;
+      font-size: 17px;
+      letter-spacing: 0.06em;
+      color: #e53935;
+      text-align: center;
+      margin-bottom: 10px;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  #laakho-price-retail {
+      color: #e43 !important;
+      font-weight: 400 !important;
+      text-decoration: line-through;
+      margin-bottom: 3px;
+      margin-top: 11px;
+      line-height: 22px;
+      font-size: 16px;
+  }
+
+  .laakho-price-gbp {
+      font-size: 30px;
+      color: #1a1a1a;
+      text-align: center;
+      font-weight: 300;
+      margin-bottom: 4px;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: -0.01em;
+  }
+
+  .laakho-price-save {
+      font-size: 16px;
+      color: #25ae4e;
+      text-align: center;
+      margin-bottom: 16px;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  /* ── Free shipping badge ── */
+  #laakho-shipping-badge {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 18px;
+  }
+
+  #laakho-shipping-badge span#laakho-label {
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #434339;
+      font-family: 'Poppins', sans-serif;
+      height: 34px;
+  }
+
+  #laakho-shipping-icon {
+
+      max-width: 100%;
+      height: auto;
+      width: 40px;
+  }
+
+
+  /* ── Footer badges ── */
+  #laakho-footer-badges {
+      background: #efefef;
+      border-top: 1px solid #b5b5b5;
+      padding: 14px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+  }
+
+  #laakho-footer-badges img {
+      display: block;
+  }
+
+  .laakho-card-bottom {
+      padding: 16px 10px 20px;
+      width: 100%;
+  }
+
+  #laakho-cta-button {
+      display: block;
+      /* important */
+      width: 100%;
+      /* full width */
+      box-sizing: border-box;
+      /* include padding */
+      padding: 15px 0;
+      font-size: 24px;
+      color: #000;
+      border-radius: 5px;
+      border: 0;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      cursor: pointer;
+
+      background-image: linear-gradient(to bottom,
+              var(--cta-background-color, var(--light-orange)) 0,
+              var(--cta-background-color2, var(--orange)) 100%);
+
+      background-color: #f2bc3c;
+      box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 0 0 1px rgb(0 0 0 / 20%) inset;
+  }
+
+  #laakho-footer-badges img {
+      display: block;
+  }
+
+  /* ── Responsive ── */
+@media screen and (max-width: 768px) {
+    .laakho-cards-grid {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .laakho-card--popular {
+        margin-top: 0;
+    }
+
+    #laakho-bundle-headline {
+        font-size: 22px;
+    }
+
+    #laakho-footer-badges {
+        gap: 14px;
+        padding: 14px 16px;
+    }
+
+    /* ← ADD THESE */
+    #laakho-bundle-top {
+        padding: 5px 16px 0;
+    }
+
+    .laakho-bundle-parent-wrapper {
+        padding: 16px 8px;
+    }
+}
