@@ -42,7 +42,7 @@
 
     <script src="//voyabarefoot.com/cdn/shop/t/12/assets/constants.js?v=58251544750838685771757075191" defer="defer"></script>
     <script src="//voyabarefoot.com/cdn/shop/t/12/assets/pubsub.js?v=158357773527763999511757075191" defer="defer"></script>
-    <script src="//voyabarefoot.com/cdn/shop/t/12/assets/global.js?v=68640318968587439871757075191" defer="defer"></script><script src="//voyabarefoot.com/cdn/shop/t/12/assets/animations.js?v=88693664871331136111757075191" defer="defer"></script><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="zwzhzQaWxiIX5WzKprO6BEVAHvQP36lnjVgOKZIUjis">
+    <script src="//voyabarefoot.com/cdn/shop/t/12/assets/global.js?v=68640318968587439871757075191" defer="defer"></script><script src="//voyabarefoot.com/cdn/shop/t/12/assets/animations.js?v=88693664871331136111757075191" defer="defer"></script><script>window.perdivance && window.perdivance.mark && window.perdivance.mark('shopify.content_for_header.start');</script><meta name="google-site-verification" content="zwzhzQaWxiIX5WzKprO6BEVAHvQP36lnjVgOKZIUjis">
 <meta name="facebook-domain-verification" content="e4cla2z5q3zdd8k65wcmuehfp99s2g">
 <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/87808540961/digital_wallets/dialog">
 <meta name="shopify-checkout-api-token" content="e884382d7afa5d5f2b3c1104fc4d201b">
@@ -120,7 +120,7 @@ await import("//voyabarefoot.com/cdn/shopifycloud/shop-js/modules/v2/chunk.modal
 })();</script>
 <script id="__st">var __st={"a":87808540961,"offset":-28800,"reqid":"c93e6f2e-d026-48b8-99d7-82ab84395330-1772871196","pageurl":"voyabarefoot.com\/products\/solyn-bogo","u":"e127c7b77e41","p":"product","rtyp":"product","rid":10203608547617};</script>
 <script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
-<script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
+<script id="captcha-bootstrap">!function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`div[action*='/${t}']:not([data-nocaptcha='true']) input[name='div_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.div)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='div_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('div repopulation failed',{error:o})}}const l='div_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_divs',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-divs-hcaptcha/ce_storefront_divs_captcha_hcaptcha.v1.5.2.iife.js',D={infoText:'Protected by hCaptcha',privacyText:'Privacy',termsText:'Terms'},(t,e,n)=>{const o=w[L][v],c=o.binddiv;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLdivElement?e:e&&e.div},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new divData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist div',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('div_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();</script>
 <script integrity="sha256-4kQ18oKyAcykRKYeNunJcIwy7WH5gtpwJnB7kiuLZ1E=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//voyabarefoot.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-a0a9edcb.js" crossorigin="anonymous"></script>
 <script crossorigin="anonymous" defer="defer" src="//voyabarefoot.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-65b4c6d7.js?v=20250812"></script>
 <script data-source-attribution="shopify.dynamic_checkout.dynamic.init">var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://voyabarefoot.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js",t.type="module",document.head.appendChild(t)}};
@@ -158,7 +158,7 @@ await import("//voyabarefoot.com/cdn/shopifycloud/shop-js/modules/v2/chunk.modal
       </style>
 <link rel="stylesheet" media="screen" href="//voyabarefoot.com/cdn/shop/t/12/compiled_assets/styles.css?v=99016959411443209531757075191">
 <script id="sections-script" data-sections="image-slider,header" defer="defer" src="//voyabarefoot.com/cdn/shop/t/12/compiled_assets/scripts.js?v=107592776170614927291764072836"></script>
-<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+<script>window.perdivance && window.perdivance.mark && window.perdivance.mark('shopify.content_for_header.end');</script>
 
 
     <style data-shopify>
@@ -167,8 +167,8 @@ await import("//voyabarefoot.com/cdn/shopifycloud/shop-js/modules/v2/chunk.modal
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("//voyabarefoot.com/cdn/fonts/poppins/poppins_n4.0ba78fa5af9b0e1a374041b3ceaadf0a43b41362.woff2") format("woff2"),
-       url("//voyabarefoot.com/cdn/fonts/poppins/poppins_n4.214741a72ff2596839fc9760ee7a770386cf16ca.woff") format("woff");
+  src: url("//voyabarefoot.com/cdn/fonts/poppins/poppins_n4.0ba78fa5af9b0e1a374041b3ceaadf0a43b41362.woff2") divat("woff2"),
+       url("//voyabarefoot.com/cdn/fonts/poppins/poppins_n4.214741a72ff2596839fc9760ee7a770386cf16ca.woff") divat("woff");
 }
 
       @font-face {
@@ -176,8 +176,8 @@ await import("//voyabarefoot.com/cdn/shopifycloud/shop-js/modules/v2/chunk.modal
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url("//voyabarefoot.com/cdn/fonts/poppins/poppins_n7.56758dcf284489feb014a026f3727f2f20a54626.woff2") format("woff2"),
-       url("//voyabarefoot.com/cdn/fonts/poppins/poppins_n7.f34f55d9b3d3205d2cd6f64955ff4b36f0cfd8da.woff") format("woff");
+  src: url("//voyabarefoot.com/cdn/fonts/poppins/poppins_n7.56758dcf284489feb014a026f3727f2f20a54626.woff2") divat("woff2"),
+       url("//voyabarefoot.com/cdn/fonts/poppins/poppins_n7.f34f55d9b3d3205d2cd6f64955ff4b36f0cfd8da.woff") divat("woff");
 }
 
       @font-face {
@@ -185,8 +185,8 @@ await import("//voyabarefoot.com/cdn/shopifycloud/shop-js/modules/v2/chunk.modal
   font-weight: 400;
   font-style: italic;
   font-display: swap;
-  src: url("//voyabarefoot.com/cdn/fonts/poppins/poppins_i4.846ad1e22474f856bd6b81ba4585a60799a9f5d2.woff2") format("woff2"),
-       url("//voyabarefoot.com/cdn/fonts/poppins/poppins_i4.56b43284e8b52fc64c1fd271f289a39e8477e9ec.woff") format("woff");
+  src: url("//voyabarefoot.com/cdn/fonts/poppins/poppins_i4.846ad1e22474f856bd6b81ba4585a60799a9f5d2.woff2") divat("woff2"),
+       url("//voyabarefoot.com/cdn/fonts/poppins/poppins_i4.56b43284e8b52fc64c1fd271f289a39e8477e9ec.woff") divat("woff");
 }
 
       @font-face {
@@ -194,8 +194,8 @@ await import("//voyabarefoot.com/cdn/shopifycloud/shop-js/modules/v2/chunk.modal
   font-weight: 700;
   font-style: italic;
   font-display: swap;
-  src: url("//voyabarefoot.com/cdn/fonts/poppins/poppins_i7.42fd71da11e9d101e1e6c7932199f925f9eea42d.woff2") format("woff2"),
-       url("//voyabarefoot.com/cdn/fonts/poppins/poppins_i7.ec8499dbd7616004e21155106d13837fff4cf556.woff") format("woff");
+  src: url("//voyabarefoot.com/cdn/fonts/poppins/poppins_i7.42fd71da11e9d101e1e6c7932199f925f9eea42d.woff2") divat("woff2"),
+       url("//voyabarefoot.com/cdn/fonts/poppins/poppins_i7.ec8499dbd7616004e21155106d13837fff4cf556.woff") divat("woff");
 }
 
       @font-face {
@@ -203,8 +203,8 @@ await import("//voyabarefoot.com/cdn/shopifycloud/shop-js/modules/v2/chunk.modal
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url("//voyabarefoot.com/cdn/fonts/dm_sans/dmsans_n7.97e21d81502002291ea1de8aefb79170c6946ce5.woff2") format("woff2"),
-       url("//voyabarefoot.com/cdn/fonts/dm_sans/dmsans_n7.af5c214f5116410ca1d53a2090665620e78e2e1b.woff") format("woff");
+  src: url("//voyabarefoot.com/cdn/fonts/dm_sans/dmsans_n7.97e21d81502002291ea1de8aefb79170c6946ce5.woff2") divat("woff2"),
+       url("//voyabarefoot.com/cdn/fonts/dm_sans/dmsans_n7.af5c214f5116410ca1d53a2090665620e78e2e1b.woff") divat("woff");
 }
 
 
@@ -770,8 +770,8 @@ p,div{
 
       <link rel="preload" as="font" href="//voyabarefoot.com/cdn/fonts/dm_sans/dmsans_n7.97e21d81502002291ea1de8aefb79170c6946ce5.woff2" type="font/woff2" crossorigin>
       
-<link href="//voyabarefoot.com/cdn/shop/t/12/assets/component-localization-form.css?v=120620094879297847921757075191" rel="stylesheet" type="text/css" media="all" />
-      <script src="//voyabarefoot.com/cdn/shop/t/12/assets/localization-form.js?v=169565320306168926741757075191" defer="defer"></script><link
+<link href="//voyabarefoot.com/cdn/shop/t/12/assets/component-localization-div.css?v=120620094879297847921757075191" rel="stylesheet" type="text/css" media="all" />
+      <script src="//voyabarefoot.com/cdn/shop/t/12/assets/localization-div.js?v=169565320306168926741757075191" defer="defer"></script><link
         rel="stylesheet"
         href="//voyabarefoot.com/cdn/shop/t/12/assets/component-predictive-search.css?v=118923337488134913561757075191"
         media="print"
@@ -855,7 +855,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 
   {
     "shopifyDomain": "716653-ae.myshopify.com",
-    "moneyFormat": "\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e",
+    "moneydivat": "\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e",
     "locale": "en",
     "liquidLocale": "en",
     "country": "US",
@@ -901,7 +901,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
       "priceCompare": null
     },
     "shopCustomStyles": "",
-    "featureFlags": {"disable_variant_option_sync":false,"hide_missing_variants":false,"initialize_with_form_variant":false,"intercept_cart_request":false,"legacy_saved_percentage":true,"native_swatches_disabled":true,"observe_form_selling_plan":false,"percentage_cents_rounding_workaround":false,"price_rounding_v2":false,"reinitialize_morphed_placeholders":false,"remove_variant_change_delay":false,"variant_images":false}
+    "featureFlags": {"disable_variant_option_sync":false,"hide_missing_variants":false,"initialize_with_div_variant":false,"intercept_cart_request":false,"legacy_saved_percentage":true,"native_swatches_disabled":true,"observe_div_selling_plan":false,"percentage_cents_rounding_workaround":false,"price_rounding_v2":false,"reinitialize_morphed_placeholders":false,"remove_variant_change_delay":false,"variant_images":false}
 
   }
 </script>
@@ -1998,10 +1998,10 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
           class=" is-empty"
         
       >
-        <form
+        <div
           action="/cart"
-          id="CartDrawer-Form"
-          class="cart__contents cart-drawer__form"
+          id="CartDrawer-div"
+          class="cart__contents cart-drawer__div"
           method="post"
         >
           <div id="CartDrawer-CartItems" class="drawer__contents js-contents"><p id="CartDrawer-LiveRegionText" class="visually-hidden" role="status"></p>
@@ -2010,7 +2010,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
             </p>
           </div>
           <div id="CartDrawer-CartErrors" role="alert"></div>
-        </form>
+        </div>
       </cart-drawer-items>
       <div class="drawer__footer"><details id="Details-CartDrawer">
             <summary>
@@ -2056,7 +2056,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
             id="CartDrawer-Checkout"
             class="cart__checkout-button button"
             name="checkout"
-            form="CartDrawer-Form"
+            div="CartDrawer-div"
             
               disabled
             
@@ -2371,15 +2371,15 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
   }</style><script src="//voyabarefoot.com/cdn/shop/t/12/assets/details-disclosure.js?v=13653116266235556501757075191" defer="defer"></script>
 <script src="//voyabarefoot.com/cdn/shop/t/12/assets/details-modal.js?v=25581673532751508451757075191" defer="defer"></script>
 <script src="//voyabarefoot.com/cdn/shop/t/12/assets/cart-notification.js?v=133508293167896966491757075191" defer="defer"></script>
-<script src="//voyabarefoot.com/cdn/shop/t/12/assets/search-form.js?v=133129549252120666541757075191" defer="defer"></script><script src="//voyabarefoot.com/cdn/shop/t/12/assets/cart-drawer.js?v=105077087914686398511757075191" defer="defer"></script><svg xmlns="http://www.w3.org/2000/svg" class="hidden">
+<script src="//voyabarefoot.com/cdn/shop/t/12/assets/search-div.js?v=133129549252120666541757075191" defer="defer"></script><script src="//voyabarefoot.com/cdn/shop/t/12/assets/cart-drawer.js?v=105077087914686398511757075191" defer="defer"></script><svg xmlns="http://www.w3.org/2000/svg" class="hidden">
   <symbol id="icon-search" viewbox="0 0 18 19" fill="none">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M11.03 11.68A5.784 5.784 0 112.85 3.5a5.784 5.784 0 018.18 8.18zm.26 1.12a6.78 6.78 0 11.72-.7l5.4 5.4a.5.5 0 11-.71.7l-5.41-5.4z" fill="currentColor"/>
   </symbol>
 
   <symbol id="icon-reset" class="icon icon-close"  fill="none" viewBox="0 0 18 18" stroke="currentColor">
     <circle r="8.5" cy="9" cx="9" stroke-opacity="0.2"/>
-    <path d="M6.82972 6.82915L1.17193 1.17097" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"/>
-    <path d="M1.22896 6.88502L6.77288 1.11523" stroke-linecap="round" stroke-linejoin="round" transform="translate(5 5)"/>
+    <path d="M6.82972 6.82915L1.17193 1.17097" stroke-linecap="round" stroke-linejoin="round" transdiv="translate(5 5)"/>
+    <path d="M1.22896 6.88502L6.77288 1.11523" stroke-linecap="round" stroke-linejoin="round" transdiv="translate(5 5)"/>
   </symbol>
 
   <symbol id="icon-close" class="icon icon-close" fill="none" viewBox="0 0 18 17">
@@ -2603,7 +2603,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
   <path fill-rule="evenodd" clip-rule="evenodd" d="M6 4.5a3 3 0 116 0 3 3 0 01-6 0zm3-4a4 4 0 100 8 4 4 0 000-8zm5.58 12.15c1.12.82 1.83 2.24 1.91 4.85H1.51c.08-2.6.79-4.03 1.9-4.85C4.66 11.75 6.5 11.5 9 11.5s4.35.26 5.58 1.15zM9 10.5c-2.5 0-4.65.24-6.17 1.35C1.27 12.98.5 14.93.5 18v.5h17V18c0-3.07-.77-5.02-2.33-6.15-1.52-1.1-3.67-1.35-6.17-1.35z" fill="currentColor">
 </svg>
 
-</account-icon>Log in</a><div class="menu-drawer__localization header-localization"><localization-form><form method="post" action="/localization" id="HeaderCountryMobileForm" accept-charset="UTF-8" class="localization-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/products/solyn-bogo" /><div>
+</account-icon>Log in</a><div class="menu-drawer__localization header-localization"><localization-div><div method="post" action="/localization" id="HeaderCountryMobilediv" accept-charset="UTF-8" class="localization-div" enctype="multipart/div-data"><input type="hidden" name="div_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/products/solyn-bogo" /><div>
                         <h2 class="visually-hidden" id="HeaderCountryMobileLabel">
                           Country/region
                         </h2>
@@ -2611,7 +2611,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 <div class="disclosure">
   <button
     type="button"
-    class="disclosure__button localization-form__select localization-selector link link--text caption-large"
+    class="disclosure__button localization-div__select localization-selector link link--text caption-large"
     aria-expanded="false"
     aria-controls="HeaderCountryMobile-country-results"
     aria-describedby="HeaderCountryMobileLabel"
@@ -2710,7 +2710,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Åland Islands</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2738,7 +2738,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Albania</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2766,7 +2766,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Andorra</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2794,7 +2794,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Australia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2822,7 +2822,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Austria</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2850,7 +2850,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Bahrain</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2878,7 +2878,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Belarus</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2906,7 +2906,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Belgium</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2934,7 +2934,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Bosnia &amp; Herzegovina</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2962,7 +2962,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Bulgaria</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -2990,7 +2990,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Canada</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3018,7 +3018,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">China</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3046,7 +3046,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Croatia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3074,7 +3074,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Czechia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3102,7 +3102,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Denmark</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3130,7 +3130,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Estonia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3158,7 +3158,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Faroe Islands</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3186,7 +3186,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Finland</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3214,7 +3214,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">France</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3242,7 +3242,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Georgia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3270,7 +3270,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Germany</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3298,7 +3298,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Gibraltar</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3326,7 +3326,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Greece</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3354,7 +3354,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Guernsey</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3382,7 +3382,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Hong Kong SAR</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3410,7 +3410,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Hungary</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3438,7 +3438,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Iceland</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3466,7 +3466,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Ireland</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3494,7 +3494,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Isle of Man</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3522,7 +3522,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Israel</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3550,7 +3550,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Italy</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3578,7 +3578,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Japan</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3606,7 +3606,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Jersey</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3634,7 +3634,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Kosovo</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3662,7 +3662,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Kuwait</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3690,7 +3690,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Latvia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3718,7 +3718,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Liechtenstein</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3746,7 +3746,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Lithuania</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3774,7 +3774,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Luxembourg</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3802,7 +3802,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Malaysia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3830,7 +3830,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Malta</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3858,7 +3858,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Mexico</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3886,7 +3886,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Moldova</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3914,7 +3914,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Monaco</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3942,7 +3942,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Montenegro</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3970,7 +3970,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Netherlands</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -3998,7 +3998,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">New Zealand</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4026,7 +4026,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">North Macedonia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4054,7 +4054,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Norway</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4082,7 +4082,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Poland</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4110,7 +4110,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Portugal</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4138,7 +4138,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Qatar</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4166,7 +4166,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Romania</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4194,7 +4194,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Russia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4222,7 +4222,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">San Marino</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4250,7 +4250,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Saudi Arabia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4278,7 +4278,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Serbia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4306,7 +4306,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Slovakia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4334,7 +4334,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Slovenia</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4362,7 +4362,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Spain</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4390,7 +4390,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Svalbard &amp; Jan Mayen</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4418,7 +4418,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Sweden</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4446,7 +4446,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Switzerland</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4474,7 +4474,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Ukraine</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4502,7 +4502,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">United Arab Emirates</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4530,7 +4530,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">United Kingdom</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4558,7 +4558,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">United States</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4586,7 +4586,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </svg>
 </span>
               <span class="country">Vatican City</span>
-              <span class="localization-form__currency motion-reduce hidden">
+              <span class="localization-div__currency motion-reduce hidden">
                 USD
                 $</span>
             </a>
@@ -4596,7 +4596,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
   <div class="country-selector__overlay"></div>
 </div>
 <input type="hidden" name="country_code" value="US">
-</div></form></localization-form>
+</div></div></localization-div>
                 
 </div><ul class="list list-social list-unstyled" role="list"><li class="list-social__item">
                   <a href="fd" class="list-social__link link"><svg aria-hidden="true" focusable="false" class="icon icon-twitter" viewBox="0 0 20 20">
@@ -4753,7 +4753,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
       <div
         class="search-modal__content search-modal__content-bottom"
         tabindex="-1"
-      ><predictive-search class="search-modal__form" data-loading-text="Loading..."><form action="/search" method="get" role="search" class="search search-modal__form">
+      ><predictive-search class="search-modal__div" data-loading-text="Loading..."><div action="/search" method="get" role="search" class="search search-modal__div">
           <div class="field">
             <input
               class="search__input field__input"
@@ -4804,7 +4804,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 </div>
 </div>
 
-            <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span></form></predictive-search><button
+            <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span></div></predictive-search><button
           type="button"
           class="search-modal__close-button modal__close-button link link--text focus-inset"
           aria-label="Close"
@@ -4951,7 +4951,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
       align-items: end;
       gap: 14px;
     }
-    .size_wrapper .product-form__input {
+    .size_wrapper .product-div__input {
       flex: auto;
     }
     .size_btn svg{
@@ -4968,7 +4968,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
       border: 2px solid #000000;
       color: #000000
     }
-    .product-form__input--dropdown {
+    .product-div__input--dropdown {
       margin-bottom: 0;
     }
     .icon-with-text--vertical .icon-with-text__item *{
@@ -4977,14 +4977,14 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
     .size_wrapper{
       margin-bottom:10px;
     }
-    .product-form__input .form__label{
+    .product-div__input .div__label{
       font-size:16px;
     }
     .kaching-bundles .kaching-bundles__bar-label{
       display: flex !important;
       align-items: center;
     }
-    .product-form__submit {
+    .product-div__submit {
     transition: .5s;
       color:white;
     }
@@ -5009,7 +5009,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
     margin-top: 1rem;
     font-weight:bold;
     margin-bottom: 0;
-    /* text-transform: uppercase; */
+    /* text-transdiv: uppercase; */
     }
     .panel_p .field__input, .panel_p .customer .field input, .panel_p .text-area{
       border-radius: 4px;
@@ -5076,19 +5076,19 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
       .product__title *{
         font-size:28px;
       }
-      .size_btn, .product__inventory, .product-form__input .form__label{
+      .size_btn, .product__inventory, .product-div__input .div__label{
         font-size:14px;
       }
-      .product-form__input .form__label{
+      .product-div__input .div__label{
         font-size: 16px !important;
         
         /* font-weight: 700; */
       }
-      .product-form__input .form__label span{
+      .product-div__input .div__label span{
         font-weight: 700
       }
       .size_btn{
-        text-transform: uppercase;
+        text-transdiv: uppercase;
         font-weight: 700;
         font-size: 12px;
       }
@@ -5139,7 +5139,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
         margin-top: 0
       }
     }</style><script src="//voyabarefoot.com/cdn/shop/t/12/assets/product-info.js?v=182726685732064835421757075191" defer="defer"></script>
-  <script src="//voyabarefoot.com/cdn/shop/t/12/assets/product-form.js?v=133081758708377679181757075191" defer="defer"></script>
+  <script src="//voyabarefoot.com/cdn/shop/t/12/assets/product-div.js?v=133081758708377679181757075191" defer="defer"></script>
     <script id="EnableZoomOnHover-main" src="//voyabarefoot.com/cdn/shop/t/12/assets/magnify.js?v=137710018090829782941757075191" defer="defer"></script>
   
 
@@ -5168,7 +5168,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
   <div id="GalleryStatus-template--25158393233697__main" class="visually-hidden" role="status"></div>
   <slider-component id="GalleryViewer-template--25158393233697__main" class="slider-mobile-gutter">
     <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-template--25158393233697__main">
-      Skip to product information
+      Skip to product indivation
     </a>
     
   <div class="offer_image">
@@ -8076,18 +8076,18 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 >
   <div class="price__container"><div class="price__regular"><span class="visually-hidden visually-hidden--inline">Regular price</span>
         <span class="price-item price-item--regular">
-          <span class=money>$79.95</span>
+          <span >$79.95</span>
         </span></div>
     <div class="price__sale">
             <span class="visually-hidden visually-hidden--inline">Sale price</span>
       <span class="price-item price-item--sale price-item--last">
-        <span class=money>£59.99</span>
+        <span class>£59.99</span>
       </span>
         <span class="visually-hidden visually-hidden--inline">Regular price</span>
         <span>
           <s class="price-item price-item--regular">
             
-              <span class=money>£96.93</span>
+              <span class>£96.93</span>
             
           </s>
         </span></div>
@@ -8123,9 +8123,9 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
       Sold out
     </span></div>
 </div>
-                <div ><form method="post" action="/cart/add" id="product-form-installment-template--25158393233697__main" accept-charset="UTF-8" class="installment caption-large" enctype="multipart/form-data"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="id" value="52092278538529">
-                    <shopify-payment-terms variant-id="52092278538529" shopify-meta="{&quot;type&quot;:&quot;product&quot;,&quot;currency_code&quot;:&quot;USD&quot;,&quot;country_code&quot;:&quot;US&quot;,&quot;variants&quot;:[{&quot;id&quot;:52092278538529,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278571297,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278604065,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278636833,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278669601,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278702369,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278735137,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278767905,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278800673,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278833441,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278866209,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278898977,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278931745,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278964513,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278997281,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279030049,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279062817,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279095585,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279128353,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279161121,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279193889,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279226657,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279259425,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279292193,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279324961,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279357729,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279390497,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279423265,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4}],&quot;min_price&quot;:&quot;&lt;span class=money&gt;$35.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$30,000.00&lt;/span&gt;&quot;,&quot;financing_plans&quot;:[{&quot;min_price&quot;:&quot;&lt;span class=money&gt;$35.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$49.99&lt;/span&gt;&quot;,&quot;terms&quot;:[{&quot;apr&quot;:0,&quot;loan_type&quot;:&quot;split_pay&quot;,&quot;installments_count&quot;:2}]},{&quot;min_price&quot;:&quot;&lt;span class=money&gt;$50.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$149.99&lt;/span&gt;&quot;,&quot;terms&quot;:[{&quot;apr&quot;:0,&quot;loan_type&quot;:&quot;split_pay&quot;,&quot;installments_count&quot;:4}]},{&quot;min_price&quot;:&quot;&lt;span class=money&gt;$150.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$999.99&lt;/span&gt;&quot;,&quot;terms&quot;:[{&quot;apr&quot;:0,&quot;loan_type&quot;:&quot;split_pay&quot;,&quot;installments_count&quot;:4},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:3},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:6},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:12}]},{&quot;min_price&quot;:&quot;&lt;span class=money&gt;$1,000.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$30,000.00&lt;/span&gt;&quot;,&quot;terms&quot;:[{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:3},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:6},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:12}]}],&quot;installments_buyer_prequalification_enabled&quot;:false,&quot;seller_id&quot;:4179225}" show-new-buyer-incentive="true"></shopify-payment-terms>
-<input type="hidden" name="product-id" value="10203608547617" /><input type="hidden" name="section-id" value="template--25158393233697__main" /></form></div>
+                <div ><div method="post" action="#" id="product-div-installment-template--25158393233697__main" accept-charset="UTF-8" class="installment caption-large" enctype="multipart/div-data"><input type="hidden" name="div_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="id" value="52092278538529">
+                    <shopify-payment-terms variant-id="52092278538529" shopify-meta="{&quot;type&quot;:&quot;product&quot;,&quot;currency_code&quot;:&quot;USD&quot;,&quot;country_code&quot;:&quot;US&quot;,&quot;variants&quot;:[{&quot;id&quot;:52092278538529,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278571297,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278604065,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278636833,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278669601,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278702369,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278735137,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278767905,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278800673,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278833441,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278866209,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278898977,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278931745,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278964513,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092278997281,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279030049,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279062817,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279095585,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279128353,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279161121,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279193889,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279226657,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279259425,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279292193,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279324961,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279357729,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279390497,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4},{&quot;id&quot;:52092279423265,&quot;price_per_term&quot;:&quot;&lt;span class=money&gt;$19.98&lt;/span&gt;&quot;,&quot;full_price&quot;:&quot;&lt;span class=money&gt;$79.95&lt;/span&gt;&quot;,&quot;eligible&quot;:true,&quot;available&quot;:true,&quot;number_of_payment_terms&quot;:4}],&quot;min_price&quot;:&quot;&lt;span class=money&gt;$35.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$30,000.00&lt;/span&gt;&quot;,&quot;financing_plans&quot;:[{&quot;min_price&quot;:&quot;&lt;span class=money&gt;$35.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$49.99&lt;/span&gt;&quot;,&quot;terms&quot;:[{&quot;apr&quot;:0,&quot;loan_type&quot;:&quot;split_pay&quot;,&quot;installments_count&quot;:2}]},{&quot;min_price&quot;:&quot;&lt;span class=money&gt;$50.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$149.99&lt;/span&gt;&quot;,&quot;terms&quot;:[{&quot;apr&quot;:0,&quot;loan_type&quot;:&quot;split_pay&quot;,&quot;installments_count&quot;:4}]},{&quot;min_price&quot;:&quot;&lt;span class=money&gt;$150.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$999.99&lt;/span&gt;&quot;,&quot;terms&quot;:[{&quot;apr&quot;:0,&quot;loan_type&quot;:&quot;split_pay&quot;,&quot;installments_count&quot;:4},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:3},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:6},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:12}]},{&quot;min_price&quot;:&quot;&lt;span class=money&gt;$1,000.00&lt;/span&gt;&quot;,&quot;max_price&quot;:&quot;&lt;span class=money&gt;$30,000.00&lt;/span&gt;&quot;,&quot;terms&quot;:[{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:3},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:6},{&quot;apr&quot;:15,&quot;loan_type&quot;:&quot;interest&quot;,&quot;installments_count&quot;:12}]}],&quot;installments_buyer_prequalification_enabled&quot;:false,&quot;seller_id&quot;:4179225}" show-new-buyer-incentive="true"></shopify-payment-terms>
+<input type="hidden" name="product-id" value="10203608547617" /><input type="hidden" name="section-id" value="template--25158393233697__main" /></div></div>
 <ul
   class="icon-with-text icon-with-text--vertical list-unstyled"
   
@@ -8148,8 +8148,8 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
     
     
   >
-<fieldset class="js product-form__input product-form__input--swatch">
-          <legend class="form__label">
+<fieldset class="js product-div__input product-div__input--swatch">
+          <legend class="div__label">
             Color:
             <span data-selected-swatch-value="Color">Mauve</span>
           </legend>
@@ -8162,7 +8162,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
   id="template--25158393233697__main-1-0"
   name="Color"
   value="Mauve"
-  form="product-form-template--25158393233697__main"
+  div="product-div-template--25158393233697__main"
   class="swatch-input__input"
   
     checked
@@ -8195,7 +8195,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
   id="template--25158393233697__main-1-1"
   name="Color"
   value="Black Void"
-  form="product-form-template--25158393233697__main"
+  div="product-div-template--25158393233697__main"
   class="swatch-input__input"
   
   
@@ -8226,7 +8226,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
   id="template--25158393233697__main-1-2"
   name="Color"
   value="Off White"
-  form="product-form-template--25158393233697__main"
+  div="product-div-template--25158393233697__main"
   class="swatch-input__input"
   
   
@@ -8257,7 +8257,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
   id="template--25158393233697__main-1-3"
   name="Color"
   value="Monosnap"
-  form="product-form-template--25158393233697__main"
+  div="product-div-template--25158393233697__main"
   class="swatch-input__input"
   
   
@@ -8283,8 +8283,8 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
 
         </fieldset>
         <div class="flex md-flex-direction-column size_wrapper">
-          <div class="w-100 product-form__input product-form__input--dropdown sm_variant">
-          <label class="form__label" for="Option-template--25158393233697__main-1">
+          <div class="w-100 product-div__input product-div__input--dropdown sm_variant">
+          <label class="div__label" for="Option-template--25158393233697__main-1">
             Size: <span id="size_label_selected">US Women 6 - US Men 4</span>
           </label>
           <div class="select">
@@ -8292,7 +8292,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
               id="Option-template--25158393233697__main-1"
               class="select__select size_select"
               name="options[Shoe size]"
-              form="product-form-template--25158393233697__main"
+              div="product-div-template--25158393233697__main"
             >
               
 <option
@@ -8365,14 +8365,14 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
     </script>
   </variant-selects>
 <div
-                  id="Quantity-Form-template--25158393233697__main"
-                  class="product-form__input product-form__quantity"
+                  id="Quantity-div-template--25158393233697__main"
+                  class="product-div__input product-div__quantity"
                   
                 >
                   
                   
 
-                  <label class="quantity__label form__label" for="Quantity-template--25158393233697__main">
+                  <label class="quantity__label div__label" for="Quantity-template--25158393233697__main">
                     Quantity
                     <span class="quantity__rules-cart hidden">
 
@@ -8421,7 +8421,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
                         
                         step="1"
                         value="1"
-                        form="product-form-template--25158393233697__main"
+                        div="product-div-template--25158393233697__main"
                       >
                       <button class="quantity__button" name="plus" type="button">
                         <span class="visually-hidden">Increase quantity for Solyn-BOGO</span>
@@ -8447,12 +8447,12 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
                           <circle cx="7.5" cy="7.5" r="7.5" fill="rgb(62,214,96, 0.3)"/>
                           <circle cx="7.5" cy="7.5" r="5" stroke="rgb(255, 255, 255)" stroke-width="1" fill="rgb(62,214,96)"/>
                         </svg>In stock</p>
-<div ><product-form
-      class="product-form"
+<div ><product-div
+      class="product-div"
       data-hide-errors="false"
       data-section-id="template--25158393233697__main"
     >
-      <div class="product-form__error-message-wrapper" role="alert" hidden>
+      <div class="product-div__error-message-wrapper" role="alert" hidden>
         <svg
           aria-hidden="true"
           focusable="false"
@@ -8464,14 +8464,14 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
           <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white"/>
           <path d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z" fill="white" stroke="#EB001B" stroke-width="0.7">
         </svg>
-        <span class="product-form__error-message"></span>
-      </div><form method="post" action="/cart/add" id="product-form-template--25158393233697__main" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
+        <span class="product-div__error-message"></span>
+      </div><div method="post" action="/cart/add" id="product-div-template--25158393233697__main" accept-charset="UTF-8" class="div" enctype="multipart/div-data" novalidate="novalidate" data-type="add-to-cart-div"><input type="hidden" name="div_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
           type="hidden"
           name="id"
           value="52092278538529"
           
           class="product-variant-id"
-        ><div class="product-form__buttons">
+        ><div class="product-div__buttons">
           <style>
     /* button container */
     .cta-wrapper-common-btn {
@@ -8493,7 +8493,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
         text-decoration: none;
         font-size: 20px;
         font-weight: 700;
-        text-transform: uppercase;
+        text-transdiv: uppercase;
         border-radius: 4px;
         border: 1px solid #e5e5e5;
         transition: 0.2s;
@@ -8525,7 +8525,7 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
     <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
   </svg>
 </div>
-</button></div><input type="hidden" name="product-id" value="10203608547617" /><input type="hidden" name="section-id" value="template--25158393233697__main" /></form></product-form><link href="//voyabarefoot.com/cdn/shop/t/12/assets/component-pickup-availability.css?v=34645222959864780961757075191" rel="stylesheet" type="text/css" media="all" />
+</button></div><input type="hidden" name="product-id" value="10203608547617" /><input type="hidden" name="section-id" value="template--25158393233697__main" /></div></product-div><link href="//voyabarefoot.com/cdn/shop/t/12/assets/component-pickup-availability.css?v=34645222959864780961757075191" rel="stylesheet" type="text/css" media="all" />
 <pickup-availability
       class="product__pickup-availabilities quick-add-hidden"
       
@@ -8582,24 +8582,24 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
                 <button class="accordion_p">Ask A Queston</button>
                 <div class="panel_p">
                     <div class="accordion_details_DETAILS_description">
-                        <div class="form_right"><form method="post" action="/contact#ContactForm" id="ContactForm" accept-charset="UTF-8" class="isolate scroll-trigger animate--slide-in"><input type="hidden" name="form_type" value="contact" /><input type="hidden" name="utf8" value="✓" /><div class="contact__fields">
+                        <div class="div_right"><div method="post" action="/contact#Contactdiv" id="Contactdiv" accept-charset="UTF-8" class="isolate scroll-trigger animate--slide-in"><input type="hidden" name="div_type" value="contact" /><input type="hidden" name="utf8" value="✓" /><div class="contact__fields">
                               <div class="field">
                                 <input
                                   class="field__input"
                                   autocomplete="name"
                                   type="text"
-                                  id="ContactForm-name"
+                                  id="Contactdiv-name"
                                   name="contact[Name]"
                                   value=""
                                   placeholder="Name"
                                 >
-                                <label class="field__label" for="ContactForm-name">Name</label>
+                                <label class="field__label" for="Contactdiv-name">Name</label>
                               </div>
                               <div class="field field--with-error">
                                 <input
                                   autocomplete="email"
                                   type="email"
-                                  id="ContactForm-email"
+                                  id="Contactdiv-email"
                                   class="field__input"
                                   name="contact[email]"
                                   spellcheck="false"
@@ -8609,14 +8609,14 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
                                   
                                   placeholder="Email"
                                 >
-                                <label class="field__label" for="ContactForm-email">Email
+                                <label class="field__label" for="Contactdiv-email">Email
                                   <span aria-hidden="true">*</span></label
                                 ></div>
                             </div>
                             <div class="field">
                               <input
                                 type="tel"
-                                id="ContactForm-phone"
+                                id="Contactdiv-phone"
                                 class="field__input"
                                 autocomplete="tel"
                                 name="contact[Phone number]"
@@ -8624,23 +8624,23 @@ window.TriplePixelData={TripleName:"716653-ae.myshopify.com",ver:"2.16",plat:"SH
                                 value=""
                                 placeholder="Phone number"
                               >
-                              <label class="field__label" for="ContactForm-phone">Phone number</label>
+                              <label class="field__label" for="Contactdiv-phone">Phone number</label>
                             </div>
                             <div class="field">
                               <textarea
                                 rows="10"
-                                id="ContactForm-body"
+                                id="Contactdiv-body"
                                 class="text-area field__input"
                                 name="contact[Comment]"
                                 placeholder="Comment"
                               ></textarea>
-                              <label class="form__label field__label" for="ContactForm-body">Comment</label>
+                              <label class="div__label field__label" for="Contactdiv-body">Comment</label>
                             </div>
                             <div class="contact__button">
                               <button type="submit" class="button">
                                 Send
                               </button>
-                            </div></form></div>
+                            </div></div></div>
                     </div>
                 </div><a href="/products/solyn-bogo" class="link product__view-details animate-arrow">
             View full details
@@ -9355,10 +9355,10 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
     window.pdpLogs = [];
     window.pdpDesignMode = false;
     window.pdpUpsellShopMetafields = {"aftersell-pdp-upsells-discount-text":"{{DISCOUNT_AMOUNT}} OFF","product-page-upsell-6835a4bde5ae8d6a30f50c56-add-to-cart-button":"Add to cart","product-page-upsell-6835a4bde5ae8d6a30f50c56-discount-text":"{{DISCOUNT_AMOUNT}} OFF","product-page-upsell-6835a4bde5ae8d6a30f50c56-header-text":"You may also like","product-page-upsell-68683a8a7d3f6eba282e7cff-add-to-cart-button":"Add to cart","product-page-upsell-68683a8a7d3f6eba282e7cff-discount-text":"{{DISCOUNT_AMOUNT}} OFF","product-page-upsell-68683a8a7d3f6eba282e7cff-header-text":"Buy One Get One Free"};
-    window.pdpUpsellAppMetafields = {"product-page-upsell-6835a4bde5ae8d6a30f50c56":{"configuration":{"upsell":{"type":"product","products":[{"id":"9496164598049","variants":[{"id":"50435115745569"},{"id":"50435115778337"},{"id":"50435115811105"},{"id":"50435115843873"},{"id":"50435115876641"},{"id":"50435115909409"},{"id":"50435115942177"},{"id":"50435115974945"},{"id":"50435116007713"},{"id":"50435116040481"},{"id":"50435116073249"},{"id":"50435116106017"},{"id":"50435114959137"},{"id":"50435114991905"},{"id":"50435115024673"},{"id":"50435115057441"},{"id":"50435115090209"},{"id":"50435115122977"},{"id":"50435115155745"},{"id":"50435115188513"},{"id":"50435115221281"},{"id":"50435115254049"},{"id":"50435115286817"},{"id":"50435115319585"},{"id":"50435115352353"},{"id":"50435115385121"},{"id":"50435115417889"},{"id":"50435115450657"},{"id":"50435115483425"},{"id":"50435115516193"},{"id":"50435115548961"},{"id":"50435115581729"},{"id":"50435115614497"},{"id":"50435115647265"},{"id":"50435115680033"},{"id":"50435115712801"},{"id":"50435116138785"},{"id":"50435116171553"},{"id":"50435116204321"},{"id":"50435116237089"},{"id":"50435116269857"},{"id":"50435116302625"},{"id":"50435116335393"},{"id":"50435116368161"},{"id":"50435116400929"},{"id":"50435116433697"},{"id":"50435116466465"},{"id":"50435116499233"},{"id":"50435116532001"},{"id":"50435116564769"},{"id":"50435116597537"},{"id":"50435116630305"},{"id":"50435116663073"},{"id":"50435116695841"},{"id":"50435116728609"},{"id":"50435116761377"},{"id":"50435116794145"},{"id":"50435116826913"},{"id":"50435116859681"},{"id":"50435116892449"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_0"},{"id":"10162921996577","variants":[{"id":"51934836785441"},{"id":"51934836818209"},{"id":"51934836850977"},{"id":"51934836883745"},{"id":"51934836916513"},{"id":"51934836949281"},{"id":"51934836982049"},{"id":"51934837014817"},{"id":"51934837047585"},{"id":"51934837080353"},{"id":"51934837113121"},{"id":"51934837145889"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_1"},{"id":"10162896044321","variants":[{"id":"51934753227041"},{"id":"51934753259809"},{"id":"51934753292577"},{"id":"51934753325345"},{"id":"51934753358113"},{"id":"51934753390881"},{"id":"51934753423649"},{"id":"51934753456417"},{"id":"51934753489185"},{"id":"51934753521953"},{"id":"51934753554721"},{"id":"51934753587489"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_2"},{"id":"10162916262177","variants":[{"id":"51934810407201"},{"id":"51934810439969"},{"id":"51934810472737"},{"id":"51934810505505"},{"id":"51934810538273"},{"id":"51934810571041"},{"id":"51934810603809"},{"id":"51934810636577"},{"id":"51934810669345"},{"id":"51934810702113"},{"id":"51934810734881"},{"id":"51934810767649"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_3"},{"id":"10208036127009","variants":[{"id":"52157966123297"},{"id":"52157966156065"},{"id":"52157966188833"},{"id":"52157966221601"},{"id":"52157966254369"},{"id":"52157966287137"},{"id":"52157966319905"},{"id":"52157966352673"},{"id":"52157966385441"},{"id":"52157966418209"},{"id":"52157966450977"},{"id":"52157966483745"},{"id":"52157966516513"},{"id":"52157966549281"},{"id":"52157966582049"},{"id":"52157966614817"},{"id":"52157966647585"},{"id":"52157966680353"},{"id":"52157966713121"},{"id":"52157966745889"},{"id":"52157966778657"},{"id":"52157966811425"},{"id":"52157966844193"},{"id":"52157966876961"},{"id":"52157965730081"},{"id":"52157965762849"},{"id":"52157965795617"},{"id":"52157965828385"},{"id":"52157965861153"},{"id":"52157965893921"},{"id":"52157965926689"},{"id":"52157965959457"},{"id":"52157965992225"},{"id":"52157966024993"},{"id":"52157966057761"},{"id":"52157966090529"},{"id":"52157967925537"},{"id":"52157967958305"},{"id":"52157967991073"},{"id":"52157968023841"},{"id":"52157968056609"},{"id":"52157968089377"},{"id":"52157968122145"},{"id":"52157968154913"},{"id":"52157968187681"},{"id":"52157968220449"},{"id":"52157968253217"},{"id":"52157968285985"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_4"}],"originalItemSettings":{"enabled":false}},"upsellFormat":"product","designSettings":{"layout":"horizontal","widgetBackgroundColor":"#00000000","widgetBorderColor":"#00000000","widgetBorderRadius":"0","widgetBorderWidth":"1","headerBackgroundColor":"#00000000","headerFontSize":"20","headerBorderColor":"#00000000","headerBorderRadius":"0","headerBorderWidth":"1","headerTextColor":"#000000","headerTextFontWeight":"bold","headerAlignment":"center","productCardBackgroundColor":"#00000000","productCardBorderColor":"#00000000","productCardBorderRadius":"0","productCardBorderWidth":"1","productCardMinWidth":"130","productCardMaxWidth":"450","productTitleFontSize":"16","productTitleTextColor":"#000000","productTitleFontWeight":"bold","productTitleAlignment":"start","addToCartButtonBackgroundColor":"#527f26","addToCartButtonTextColor":"#ffffff","addToCartButtonFontSize":"14","addToCartButtonFontWeight":"normal","addToCartButtonBorderRadius":"50","addToCartButtonBorderWidth":"1","addToCartButtonBorderColor":"#00000000","addToCartButtonHoverBackgroundColor":"#2e2e2e","addToCartButtonHoverTextColor":"#ffffff","addToCartButtonHoverBorderColor":"#00000000","addToCartButtonPositionInVerticalLayout":"bottom","productImageWidth":"150","productImageHeight":"150","productImageObjectFit":"cover","productImageBorderRadius":"30","productImageBorderWidth":"1","productImageBorderColor":"#93939338","productImageBackgroundColor":"#00000000","widgetAlignmentInVerticalLayout":"center","showPlusIconInBundles":true,"productImageAndInfoLayoutOrder":"image-first","variantSelectionBorderColor":"#000000","variantSelectionBorderWidth":"1","variantSelectionBorderRadius":"50","variantSelectionBackgroundColor":"#00000000","variantSelectionTextColor":"#000000","variantSelectionFontSize":"14","variantSelectionFontWeight":"normal","priceTextFontSize":"14","priceTextFontWeight":"normal","priceTextColor":"#000000","discountTextFontSize":"14","discountTextFontWeight":"bold","discountTextColor":"#4d7a50","compareAtPriceTextFontSize":"14","compareAtPriceTextFontWeight":"normal","compareAtPriceTextColor":"#000000","showQuantitySelector":false,"topPadding":"30","bottomPadding":"30","leftPadding":"0","rightPadding":"0","arrowBackgroundColor":"#527f26","arrowHoverBackgroundColor":"#2E2E2E","arrowIconColor":"#ffffff","arrowHoverIconColor":"#ffffff","arrowPlacement":"overlay","productCardPadding":"12","showVariantQuantityLabel":false},"pdpUpsellId":"6835a4bde5ae8d6a30f50c56","discountConfiguration":{"type":null,"discounts":[]}}},"product-page-upsell-68683a8a7d3f6eba282e7cff":{"configuration":{"upsell":{"type":"product","products":[{"id":"10162896142625","variants":[{"id":"51934753685793"},{"id":"51934753718561"},{"id":"51934753751329"},{"id":"51934753784097"},{"id":"51934753816865"},{"id":"51934753849633"},{"id":"51934753882401"},{"id":"51934753915169"},{"id":"51934753947937"},{"id":"51934753980705"},{"id":"51934754013473"},{"id":"51934754046241"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_0"},{"id":"10162587107617","variants":[{"id":"51932753133857"},{"id":"51932753166625"},{"id":"51932753199393"},{"id":"51932753232161"},{"id":"51932753264929"},{"id":"51932753297697"},{"id":"51932753330465"},{"id":"51932753363233"},{"id":"51932753396001"},{"id":"51932753428769"},{"id":"51932753461537"},{"id":"51932753494305"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_1"},{"id":"10162922225953","variants":[{"id":"51934837702945"},{"id":"51934837735713"},{"id":"51934837768481"},{"id":"51934837801249"},{"id":"51934837834017"},{"id":"51934837866785"},{"id":"51934837899553"},{"id":"51934837932321"},{"id":"51934837965089"},{"id":"51934837997857"},{"id":"51934838030625"},{"id":"51934838063393"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_2"},{"id":"10162559353121","variants":[{"id":"51932667674913"},{"id":"51932667707681"},{"id":"51932667740449"},{"id":"51932667773217"},{"id":"51932667805985"},{"id":"51932667838753"},{"id":"51932667871521"},{"id":"51932667904289"},{"id":"51932667937057"},{"id":"51932667969825"},{"id":"51932668002593"},{"id":"51932668035361"},{"id":"51932668068129"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_3"},{"id":"10162916622625","variants":[{"id":"51934811554081"},{"id":"51934811586849"},{"id":"51934811619617"},{"id":"51934811652385"},{"id":"51934811685153"},{"id":"51934811717921"},{"id":"51934811750689"},{"id":"51934811783457"},{"id":"51934811816225"},{"id":"51934811848993"},{"id":"51934811881761"},{"id":"51934811914529"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_4"}],"originalItemSettings":{"enabled":false}},"upsellFormat":"product","designSettings":{"layout":"horizontal","widgetBackgroundColor":"#00000000","widgetBorderColor":"#00000000","widgetBorderRadius":"0","widgetBorderWidth":"1","headerBackgroundColor":"#00000000","headerFontSize":"20","headerBorderColor":"#00000000","headerBorderRadius":"0","headerBorderWidth":"1","headerTextColor":"#000000","headerTextFontWeight":"bold","headerAlignment":"center","productCardBackgroundColor":"#00000000","productCardBorderColor":"#00000000","productCardBorderRadius":"0","productCardBorderWidth":"1","productCardMinWidth":"130","productCardMaxWidth":"450","productTitleFontSize":"16","productTitleTextColor":"#000000","productTitleFontWeight":"bold","productTitleAlignment":"start","addToCartButtonBackgroundColor":"#527f26","addToCartButtonTextColor":"#ffffff","addToCartButtonFontSize":"14","addToCartButtonFontWeight":"normal","addToCartButtonBorderRadius":"50","addToCartButtonBorderWidth":"1","addToCartButtonBorderColor":"#00000000","addToCartButtonHoverBackgroundColor":"#2e2e2e","addToCartButtonHoverTextColor":"#ffffff","addToCartButtonHoverBorderColor":"#00000000","addToCartButtonPositionInVerticalLayout":"bottom","productImageWidth":"150","productImageHeight":"150","productImageObjectFit":"cover","productImageBorderRadius":"30","productImageBorderWidth":"1","productImageBorderColor":"#93939338","productImageBackgroundColor":"#00000000","widgetAlignmentInVerticalLayout":"center","showPlusIconInBundles":true,"productImageAndInfoLayoutOrder":"image-first","variantSelectionBorderColor":"#000000","variantSelectionBorderWidth":"1","variantSelectionBorderRadius":"50","variantSelectionBackgroundColor":"#00000000","variantSelectionTextColor":"#000000","variantSelectionFontSize":"14","variantSelectionFontWeight":"normal","priceTextFontSize":"14","priceTextFontWeight":"normal","priceTextColor":"#000000","discountTextFontSize":"14","discountTextFontWeight":"bold","discountTextColor":"#4d7a50","compareAtPriceTextFontSize":"14","compareAtPriceTextFontWeight":"normal","compareAtPriceTextColor":"#000000","showQuantitySelector":false,"topPadding":"30","bottomPadding":"30","leftPadding":"0","rightPadding":"0","arrowBackgroundColor":"#527f26","arrowHoverBackgroundColor":"#2E2E2E","arrowIconColor":"#ffffff","arrowHoverIconColor":"#ffffff","arrowPlacement":"overlay","productCardPadding":"12","showVariantQuantityLabel":false},"pdpUpsellId":"68683a8a7d3f6eba282e7cff","discountConfiguration":{"type":null,"discounts":[]}}},"triggers-and-upsell-keys":{"triggers":[{"type":"collection","collections":[{"id":"495917433121"}],"pdpUpsellConfigurationMetafieldKey":"product-page-upsell-68683a8a7d3f6eba282e7cff","priority":2,"active":true},{"type":"collection","collections":[{"id":"480873152801"},{"id":"482806792481"},{"id":"482806858017"},{"id":"482806989089"},{"id":"488996110625"},{"id":"489616212257"}],"pdpUpsellConfigurationMetafieldKey":"product-page-upsell-6835a4bde5ae8d6a30f50c56","priority":1,"active":true}]}};
+    window.pdpUpsellAppMetafields = {"product-page-upsell-6835a4bde5ae8d6a30f50c56":{"configuration":{"upsell":{"type":"product","products":[{"id":"9496164598049","variants":[{"id":"50435115745569"},{"id":"50435115778337"},{"id":"50435115811105"},{"id":"50435115843873"},{"id":"50435115876641"},{"id":"50435115909409"},{"id":"50435115942177"},{"id":"50435115974945"},{"id":"50435116007713"},{"id":"50435116040481"},{"id":"50435116073249"},{"id":"50435116106017"},{"id":"50435114959137"},{"id":"50435114991905"},{"id":"50435115024673"},{"id":"50435115057441"},{"id":"50435115090209"},{"id":"50435115122977"},{"id":"50435115155745"},{"id":"50435115188513"},{"id":"50435115221281"},{"id":"50435115254049"},{"id":"50435115286817"},{"id":"50435115319585"},{"id":"50435115352353"},{"id":"50435115385121"},{"id":"50435115417889"},{"id":"50435115450657"},{"id":"50435115483425"},{"id":"50435115516193"},{"id":"50435115548961"},{"id":"50435115581729"},{"id":"50435115614497"},{"id":"50435115647265"},{"id":"50435115680033"},{"id":"50435115712801"},{"id":"50435116138785"},{"id":"50435116171553"},{"id":"50435116204321"},{"id":"50435116237089"},{"id":"50435116269857"},{"id":"50435116302625"},{"id":"50435116335393"},{"id":"50435116368161"},{"id":"50435116400929"},{"id":"50435116433697"},{"id":"50435116466465"},{"id":"50435116499233"},{"id":"50435116532001"},{"id":"50435116564769"},{"id":"50435116597537"},{"id":"50435116630305"},{"id":"50435116663073"},{"id":"50435116695841"},{"id":"50435116728609"},{"id":"50435116761377"},{"id":"50435116794145"},{"id":"50435116826913"},{"id":"50435116859681"},{"id":"50435116892449"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_0"},{"id":"10162921996577","variants":[{"id":"51934836785441"},{"id":"51934836818209"},{"id":"51934836850977"},{"id":"51934836883745"},{"id":"51934836916513"},{"id":"51934836949281"},{"id":"51934836982049"},{"id":"51934837014817"},{"id":"51934837047585"},{"id":"51934837080353"},{"id":"51934837113121"},{"id":"51934837145889"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_1"},{"id":"10162896044321","variants":[{"id":"51934753227041"},{"id":"51934753259809"},{"id":"51934753292577"},{"id":"51934753325345"},{"id":"51934753358113"},{"id":"51934753390881"},{"id":"51934753423649"},{"id":"51934753456417"},{"id":"51934753489185"},{"id":"51934753521953"},{"id":"51934753554721"},{"id":"51934753587489"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_2"},{"id":"10162916262177","variants":[{"id":"51934810407201"},{"id":"51934810439969"},{"id":"51934810472737"},{"id":"51934810505505"},{"id":"51934810538273"},{"id":"51934810571041"},{"id":"51934810603809"},{"id":"51934810636577"},{"id":"51934810669345"},{"id":"51934810702113"},{"id":"51934810734881"},{"id":"51934810767649"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_3"},{"id":"10208036127009","variants":[{"id":"52157966123297"},{"id":"52157966156065"},{"id":"52157966188833"},{"id":"52157966221601"},{"id":"52157966254369"},{"id":"52157966287137"},{"id":"52157966319905"},{"id":"52157966352673"},{"id":"52157966385441"},{"id":"52157966418209"},{"id":"52157966450977"},{"id":"52157966483745"},{"id":"52157966516513"},{"id":"52157966549281"},{"id":"52157966582049"},{"id":"52157966614817"},{"id":"52157966647585"},{"id":"52157966680353"},{"id":"52157966713121"},{"id":"52157966745889"},{"id":"52157966778657"},{"id":"52157966811425"},{"id":"52157966844193"},{"id":"52157966876961"},{"id":"52157965730081"},{"id":"52157965762849"},{"id":"52157965795617"},{"id":"52157965828385"},{"id":"52157965861153"},{"id":"52157965893921"},{"id":"52157965926689"},{"id":"52157965959457"},{"id":"52157965992225"},{"id":"52157966024993"},{"id":"52157966057761"},{"id":"52157966090529"},{"id":"52157967925537"},{"id":"52157967958305"},{"id":"52157967991073"},{"id":"52157968023841"},{"id":"52157968056609"},{"id":"52157968089377"},{"id":"52157968122145"},{"id":"52157968154913"},{"id":"52157968187681"},{"id":"52157968220449"},{"id":"52157968253217"},{"id":"52157968285985"}],"lineItemTag":"__pdpUpsell_6835a4bde5ae8d6a30f50c56_line_item_4"}],"originalItemSettings":{"enabled":false}},"upselldivat":"product","designSettings":{"layout":"horizontal","widgetBackgroundColor":"#00000000","widgetBorderColor":"#00000000","widgetBorderRadius":"0","widgetBorderWidth":"1","headerBackgroundColor":"#00000000","headerFontSize":"20","headerBorderColor":"#00000000","headerBorderRadius":"0","headerBorderWidth":"1","headerTextColor":"#000000","headerTextFontWeight":"bold","headerAlignment":"center","productCardBackgroundColor":"#00000000","productCardBorderColor":"#00000000","productCardBorderRadius":"0","productCardBorderWidth":"1","productCardMinWidth":"130","productCardMaxWidth":"450","productTitleFontSize":"16","productTitleTextColor":"#000000","productTitleFontWeight":"bold","productTitleAlignment":"start","addToCartButtonBackgroundColor":"#527f26","addToCartButtonTextColor":"#ffffff","addToCartButtonFontSize":"14","addToCartButtonFontWeight":"normal","addToCartButtonBorderRadius":"50","addToCartButtonBorderWidth":"1","addToCartButtonBorderColor":"#00000000","addToCartButtonHoverBackgroundColor":"#2e2e2e","addToCartButtonHoverTextColor":"#ffffff","addToCartButtonHoverBorderColor":"#00000000","addToCartButtonPositionInVerticalLayout":"bottom","productImageWidth":"150","productImageHeight":"150","productImageObjectFit":"cover","productImageBorderRadius":"30","productImageBorderWidth":"1","productImageBorderColor":"#93939338","productImageBackgroundColor":"#00000000","widgetAlignmentInVerticalLayout":"center","showPlusIconInBundles":true,"productImageAndInfoLayoutOrder":"image-first","variantSelectionBorderColor":"#000000","variantSelectionBorderWidth":"1","variantSelectionBorderRadius":"50","variantSelectionBackgroundColor":"#00000000","variantSelectionTextColor":"#000000","variantSelectionFontSize":"14","variantSelectionFontWeight":"normal","priceTextFontSize":"14","priceTextFontWeight":"normal","priceTextColor":"#000000","discountTextFontSize":"14","discountTextFontWeight":"bold","discountTextColor":"#4d7a50","compareAtPriceTextFontSize":"14","compareAtPriceTextFontWeight":"normal","compareAtPriceTextColor":"#000000","showQuantitySelector":false,"topPadding":"30","bottomPadding":"30","leftPadding":"0","rightPadding":"0","arrowBackgroundColor":"#527f26","arrowHoverBackgroundColor":"#2E2E2E","arrowIconColor":"#ffffff","arrowHoverIconColor":"#ffffff","arrowPlacement":"overlay","productCardPadding":"12","showVariantQuantityLabel":false},"pdpUpsellId":"6835a4bde5ae8d6a30f50c56","discountConfiguration":{"type":null,"discounts":[]}}},"product-page-upsell-68683a8a7d3f6eba282e7cff":{"configuration":{"upsell":{"type":"product","products":[{"id":"10162896142625","variants":[{"id":"51934753685793"},{"id":"51934753718561"},{"id":"51934753751329"},{"id":"51934753784097"},{"id":"51934753816865"},{"id":"51934753849633"},{"id":"51934753882401"},{"id":"51934753915169"},{"id":"51934753947937"},{"id":"51934753980705"},{"id":"51934754013473"},{"id":"51934754046241"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_0"},{"id":"10162587107617","variants":[{"id":"51932753133857"},{"id":"51932753166625"},{"id":"51932753199393"},{"id":"51932753232161"},{"id":"51932753264929"},{"id":"51932753297697"},{"id":"51932753330465"},{"id":"51932753363233"},{"id":"51932753396001"},{"id":"51932753428769"},{"id":"51932753461537"},{"id":"51932753494305"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_1"},{"id":"10162922225953","variants":[{"id":"51934837702945"},{"id":"51934837735713"},{"id":"51934837768481"},{"id":"51934837801249"},{"id":"51934837834017"},{"id":"51934837866785"},{"id":"51934837899553"},{"id":"51934837932321"},{"id":"51934837965089"},{"id":"51934837997857"},{"id":"51934838030625"},{"id":"51934838063393"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_2"},{"id":"10162559353121","variants":[{"id":"51932667674913"},{"id":"51932667707681"},{"id":"51932667740449"},{"id":"51932667773217"},{"id":"51932667805985"},{"id":"51932667838753"},{"id":"51932667871521"},{"id":"51932667904289"},{"id":"51932667937057"},{"id":"51932667969825"},{"id":"51932668002593"},{"id":"51932668035361"},{"id":"51932668068129"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_3"},{"id":"10162916622625","variants":[{"id":"51934811554081"},{"id":"51934811586849"},{"id":"51934811619617"},{"id":"51934811652385"},{"id":"51934811685153"},{"id":"51934811717921"},{"id":"51934811750689"},{"id":"51934811783457"},{"id":"51934811816225"},{"id":"51934811848993"},{"id":"51934811881761"},{"id":"51934811914529"}],"lineItemTag":"__pdpUpsell_68683a8a7d3f6eba282e7cff_line_item_4"}],"originalItemSettings":{"enabled":false}},"upselldivat":"product","designSettings":{"layout":"horizontal","widgetBackgroundColor":"#00000000","widgetBorderColor":"#00000000","widgetBorderRadius":"0","widgetBorderWidth":"1","headerBackgroundColor":"#00000000","headerFontSize":"20","headerBorderColor":"#00000000","headerBorderRadius":"0","headerBorderWidth":"1","headerTextColor":"#000000","headerTextFontWeight":"bold","headerAlignment":"center","productCardBackgroundColor":"#00000000","productCardBorderColor":"#00000000","productCardBorderRadius":"0","productCardBorderWidth":"1","productCardMinWidth":"130","productCardMaxWidth":"450","productTitleFontSize":"16","productTitleTextColor":"#000000","productTitleFontWeight":"bold","productTitleAlignment":"start","addToCartButtonBackgroundColor":"#527f26","addToCartButtonTextColor":"#ffffff","addToCartButtonFontSize":"14","addToCartButtonFontWeight":"normal","addToCartButtonBorderRadius":"50","addToCartButtonBorderWidth":"1","addToCartButtonBorderColor":"#00000000","addToCartButtonHoverBackgroundColor":"#2e2e2e","addToCartButtonHoverTextColor":"#ffffff","addToCartButtonHoverBorderColor":"#00000000","addToCartButtonPositionInVerticalLayout":"bottom","productImageWidth":"150","productImageHeight":"150","productImageObjectFit":"cover","productImageBorderRadius":"30","productImageBorderWidth":"1","productImageBorderColor":"#93939338","productImageBackgroundColor":"#00000000","widgetAlignmentInVerticalLayout":"center","showPlusIconInBundles":true,"productImageAndInfoLayoutOrder":"image-first","variantSelectionBorderColor":"#000000","variantSelectionBorderWidth":"1","variantSelectionBorderRadius":"50","variantSelectionBackgroundColor":"#00000000","variantSelectionTextColor":"#000000","variantSelectionFontSize":"14","variantSelectionFontWeight":"normal","priceTextFontSize":"14","priceTextFontWeight":"normal","priceTextColor":"#000000","discountTextFontSize":"14","discountTextFontWeight":"bold","discountTextColor":"#4d7a50","compareAtPriceTextFontSize":"14","compareAtPriceTextFontWeight":"normal","compareAtPriceTextColor":"#000000","showQuantitySelector":false,"topPadding":"30","bottomPadding":"30","leftPadding":"0","rightPadding":"0","arrowBackgroundColor":"#527f26","arrowHoverBackgroundColor":"#2E2E2E","arrowIconColor":"#ffffff","arrowHoverIconColor":"#ffffff","arrowPlacement":"overlay","productCardPadding":"12","showVariantQuantityLabel":false},"pdpUpsellId":"68683a8a7d3f6eba282e7cff","discountConfiguration":{"type":null,"discounts":[]}}},"triggers-and-upsell-keys":{"triggers":[{"type":"collection","collections":[{"id":"495917433121"}],"pdpUpsellConfigurationMetafieldKey":"product-page-upsell-68683a8a7d3f6eba282e7cff","priority":2,"active":true},{"type":"collection","collections":[{"id":"480873152801"},{"id":"482806792481"},{"id":"482806858017"},{"id":"482806989089"},{"id":"488996110625"},{"id":"489616212257"}],"pdpUpsellConfigurationMetafieldKey":"product-page-upsell-6835a4bde5ae8d6a30f50c56","priority":1,"active":true}]}};
     window.pdpUpsellSelectedProductId = '10203608547617';
     window.pdpUpsellSelectedCollectionIds = ["490486169889", "482527510817"];
-    window.pdpUpsellMoneyFormat = "\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e";
+    window.pdpUpsellMoneydivat = "\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e";
     window.pdpUpsellStorefrontPublicAccessToken = 'f5582bed0f2595b6fd157bec075cae18'
     window.aftersellPdpMyShopifyDomain = '716653-ae.myshopify.com';
 
@@ -9720,7 +9720,7 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
     opacity:0;
     z-index: 2;
     transition:.5s ease;
-    transform:translateY(-25px);
+    transdiv:translateY(-25px);
     border-bottom: 1px solid #c4c4c4;
   }
   .sticky_atc_template--25158393233697__sticky_atc_pdp_TULqFW .btns_pm{
@@ -9834,7 +9834,7 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
 </style>
 
   <script src="//voyabarefoot.com/cdn/shop/t/12/assets/quick-add.js?v=53942799839994596201757075191" defer="defer"></script>
-  <script src="//voyabarefoot.com/cdn/shop/t/12/assets/product-form.js?v=133081758708377679181757075191" defer="defer"></script>
+  <script src="//voyabarefoot.com/cdn/shop/t/12/assets/product-div.js?v=133081758708377679181757075191" defer="defer"></script>
 
 <div class="sticky_atc_template--25158393233697__sticky_atc_pdp_TULqFW">
   <div class="flex page-width">
@@ -9850,18 +9850,18 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
 >
   <div class="price__container"><div class="price__regular"><span class="visually-hidden visually-hidden--inline">Regular price</span>
         <span class="price-item price-item--regular">
-          <span class=money>$79.95</span>
+          <span class=""money></span>
         </span></div>
     <div class="price__sale">
             <span class="visually-hidden visually-hidden--inline">Sale price</span>
       <span class="price-item price-item--sale price-item--last">
-        <span class=money>$79.95</span>
+        <span class=""money>£59.99</span>
       </span>
         <span class="visually-hidden visually-hidden--inline">Regular price</span>
         <span>
           <s class="price-item price-item--regular">
             
-              <span class=money>£96.93</span>
+              <span money>£96.93</span>
             
           </s>
         </span></div>
@@ -9966,7 +9966,7 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
         <span class="quantity_plus btns_pm w-100">+</span>
       </div>
       <div>
-      <product-form data-section-id="template--25158393233697__sticky_atc_pdp_TULqFW"><form method="post" action="/cart/add" id="quick-add-10203608547617" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form"><input type="hidden" name="form_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
+      <product-div data-section-id="template--25158393233697__sticky_atc_pdp_TULqFW"><div method="post" action="/cart/add" id="quick-add-10203608547617" accept-charset="UTF-8" class="div" enctype="multipart/div-data" novalidate="novalidate" data-type="add-to-cart-div"><input type="hidden" name="div_type" value="product" /><input type="hidden" name="utf8" value="✓" /><input
         type="hidden"
         name="id"
         value="52092278538529"
@@ -10005,7 +10005,7 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
     <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
   </svg>
 </div>
-</button><input type="hidden" name="product-id" value="10203608547617" /><input type="hidden" name="section-id" value="template--25158393233697__sticky_atc_pdp_TULqFW" /></form></product-form>
+</button><input type="hidden" name="product-id" value="10203608547617" /><input type="hidden" name="section-id" value="template--25158393233697__sticky_atc_pdp_TULqFW" /></div></product-div>
       </div>
     </div>
   </div>
@@ -10067,9 +10067,9 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
       
             if (window.scrollY > scrollHeight) {
                 targetElement.style.opacity = '1';
-                targetElement.style.transform = 'translateY(0px)';
+                targetElement.style.transdiv = 'translateY(0px)';
             } else {
-                targetElement.style.transform = 'translateY(-25px)';
+                targetElement.style.transdiv = 'translateY(-25px)';
                 targetElement.style.opacity = '0';
             }
         });
@@ -10178,14 +10178,14 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
     }
   }
 
-  .newsletter-form__field-wrapper .field__input {
+  .newsletter-div__field-wrapper .field__input {
     padding-right: 5rem;
     background: white;
     border-radius: 50px;
     color: black;
     padding: 2.8rem;
   }
-  .newsletter-form__button {
+  .newsletter-div__button {
     width: 5.4rem;
     margin: 0;
     right: var(--inputs-border-width);
@@ -10205,7 +10205,7 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
     .footer-block__brand-info p{
       font-size: 14px;
     }
-    .newsletter-form__field-wrapper .field__label{
+    .newsletter-div__field-wrapper .field__label{
       top: 17px;
     }
   }</style><footer class="footer footer_sections--25158388121889__footer color-scheme-1b3d0567-f7d9-406c-af14-cd5cbbe0bba3 gradient section-sections--25158388121889__footer-padding   "><div class="footer__content-top page-width"><div
@@ -10225,7 +10225,7 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
                           style="max-width: min(100%, 190px);"
                         >
                           <img src="//voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=1100" alt="" srcset="//voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=50 50w, //voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=100 100w, //voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=150 150w, //voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=200 200w, //voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=300 300w, //voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=400 400w, //voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=550 550w, //voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=800 800w, //voyabarefoot.com/cdn/shop/files/Asset_1_1.svg?v=1748519828&amp;width=1100 1100w" width="190" height="60.166666666666664" loading="lazy">
-                        </div><div class="rte"><p>At Voya, we are passionate about promoting foot health and wellness. Our footwear is meticulously crafted to enhance natural foot alignment, providing effective relief from foot pain and preventing deformities.</p></div>
+                        </div><div class="rte"><p>At Voya, we are passionate about promoting foot health and wellness. Our footwear is meticulously crafted to enhance natural foot alignment, providing effective relief from foot pain and preventing dedivities.</p></div>
 
 <ul class="list-unstyled list-social footer__list-social" role="list"><li class="list-social__item">
       <a href="#" class="link list-social__link"><svg aria-hidden="true" focusable="false" class="icon icon-facebook" viewBox="0 0 20 20">
@@ -10371,11 +10371,11 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
                   data-cascade
                   style="--animation-order: 5;"
                 
-              ><h2 class="footer-block__heading inline-richtext"><strong>Sign Up For Our Newsletter</strong></h2><div class="footer-block__newsletter"><form method="post" action="/contact#ContactFooter" id="ContactFooter" accept-charset="UTF-8" class="footer__newsletter newsletter-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="contact[tags]" value="newsletter">
-                <div class="newsletter-form__field-wrapper">
+              ><h2 class="footer-block__heading inline-richtext"><strong>Sign Up For Our Newsletter</strong></h2><div class="footer-block__newsletter"><div method="post" action="/contact#ContactFooter" id="ContactFooter" accept-charset="UTF-8" class="footer__newsletter newsletter-div"><input type="hidden" name="div_type" value="customer" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="contact[tags]" value="newsletter">
+                <div class="newsletter-div__field-wrapper">
                   <div class="field">
                     <input
-                      id="NewsletterForm--sections--25158388121889__footer"
+                      id="Newsletterdiv--sections--25158388121889__footer"
                       type="email"
                       name="contact[email]"
                       class="field__input"
@@ -10388,19 +10388,19 @@ for (i_p = 0; i_p < acc_p.length; i_p++) {
                       placeholder="Email"
                       required
                     >
-                    <label class="field__label text-color-black" for="NewsletterForm--sections--25158388121889__footer">
+                    <label class="field__label text-color-black" for="Newsletterdiv--sections--25158388121889__footer">
                        Enter Your Email Address
                     </label>
                     <button
                       type="submit"
-                      class="newsletter-form__button field__button"
+                      class="newsletter-div__button field__button"
                       name="commit"
                       id="Subscribe"
                       aria-label="Subscribe"
                     >
                       <img width="50" height="50" loading="lazy" src="//voyabarefoot.com/cdn/shop/files/Frame_62.svg?v=1719316937"/>
                     </button>
-                  </div></div></form><div class="newsletter_desc text-color-white">You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</div>
+                  </div></div></div><div class="newsletter_desc text-color-white">You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</div>
                     
             </div></div></div><div
           class="footer-block--newsletter scroll-trigger animate--slide-in"
@@ -10515,8 +10515,8 @@ await import("//voyabarefoot.com/cdn/shopifycloud/shop-js/modules/v2/chunk.modal
         shareSuccess: `Link copied to clipboard`,
         pauseSlideshow: `Pause slideshow`,
         playSlideshow: `Play slideshow`,
-        recipientFormExpanded: `Gift card recipient form expanded`,
-        recipientFormCollapsed: `Gift card recipient form collapsed`,
+        recipientdivExpanded: `Gift card recipient div expanded`,
+        recipientdivCollapsed: `Gift card recipient div collapsed`,
         countrySelectorSearchCount: `[count] countries/regions found`,
       };
     </script><script src="//voyabarefoot.com/cdn/shop/t/12/assets/predictive-search.js?v=162273246065392412141757075191" defer="defer"></script><!-- <script>
@@ -10575,7 +10575,7 @@ $(document).ready(function(){
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const sizeSelect = document.querySelector(".size_wrapper .product-form__input .select__select");
+  const sizeSelect = document.querySelector(".size_wrapper .product-div__input .select__select");
 
   if (sizeSelect) {
     sizeSelect.addEventListener("change", function (e) {
@@ -10596,18 +10596,18 @@ document.addEventListener("DOMContentLoaded", function () {
   overflow-y: auto!important;
   }
   .each_produt .each_produt_title, 
-  .product-card-wrapper .card__content .card__information h3 a{
+  .product-card-wrapper .card__content .card__indivation h3 a{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   }
-  .product-card-wrapper .card__content .card__information{
+  .product-card-wrapper .card__content .card__indivation{
   overflow: hidden;
   }
   .swiper-wrapper .swiper-slide{
   overflow: hidden;
   }
-  .product-card-wrapper .card__content .card__information .each_produt_review {
+  .product-card-wrapper .card__content .card__indivation .each_produt_review {
   margin-top:-12px !important;
   }
   .add_to_cart.quick-add__submit > img {
@@ -11909,7 +11909,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
   window.upcartPreloadedCart = {"note":"","attributes":{"_kite_cfData":"{\"BUY 1, GET 1 FREE\":\"\",\" BUY 2, GET 1 FREE\":\"\"}","aimPK":"e7a9ce5d-15c9-4932-be3c-6657170181a9"},"original_total_price":0,"total_price":0,"total_discount":0,"total_weight":0.0,"item_count":0,"items":[],"requires_shipping":false,"currency":"USD","items_subtotal_price":0,"cart_level_discount_applications":[],"checkout_charge_amount":0};
-  window.upcartMoneyFormat = "\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e";
+  window.upcartMoneydivat = "\u003cspan class=money\u003e${{amount}}\u003c\/span\u003e";
   window.upcartStorefrontPublicAccessToken = 'b268a2bba267f740399c8b4d722745b7' || undefined;
   window.upcartClientLocalizationCountry = {
     isoCode: 'US',
